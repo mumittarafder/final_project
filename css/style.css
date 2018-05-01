@@ -1,0 +1,132 @@
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../images/bg.jpg);
+	background-size: cover;
+}
+
+.signupbox{
+	width: 500px;
+	height: 500px;
+	background: #79798c00;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0 0 15px 3px;
+	transition: all .8s linear;
+}
+
+.container{}
+.signupbox:hover{
+	box-shadow: 0 0 50px 10px;
+}
+.signupbox .btnone{
+    background: #1AB188;
+    border: none;
+    height: 40px;
+    width: 180px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-top: 65px;
+    margin-left: 14%;
+    margin-right: 0;
+    cursor: pointer;
+}
+.btnone:hover{
+    background: #0b503e;
+}
+
+.signupbox .btntwo{
+	background: #000000;
+	border: none;
+	height: 40px;
+	width: 180px;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	margin-left: 0;
+	cursor: pointer;
+	}
+.btntwo:hover{
+    background: #332525;
+}
+
+
+.signupbox h1{
+    color: white;
+    margin-left: 161px;
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.signupbox .form input[type="text"] {
+
+	padding: 5px 10px;
+	margin-left: 14%;
+	border: 2px solid #ffffffa8;
+	margin-right: 16px;
+	height: 32px;
+	border-radius: 2px;
+	margin-bottom: 30px;
+	width: 172px;
+	background: transparent;
+}
+.signupbox .form input[type="texttwo"] {
+	padding: 5px 10px;
+	padding: 5px 10px;
+	height: 32px;
+	width: 172px;
+	background: transparent;
+	border: 2px solid #ffffffa8;
+	border-radius: 2px;
+}
+
+.form{} input[type="email"]{
+	width: 366px;
+	margin-left: 13.5%;
+	height: 36px;
+	border-radius: 2px;
+	border: 2px solid #ffffffa8;
+	padding: 5px 10px;
+	margin-bottom: 30px;
+	background: transparent;
+}
+.form input[type="password"]{
+	width: 366px;
+	margin-left: 13.5%;
+	height: 36px;
+	border-radius: 1px;
+	border: none;
+	padding: 5px 10px;
+	background: transparent;
+	border-radius: 2px;
+	border: 2px solid #ffffffa8;
+	margin-bottom: 30px;
+}
+.signupbox .btnthree{
+	border: none;
+	background: #19B188;
+	width: 366px;
+	height: 50px;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	margin-left: 13.5%;
+	cursor: pointer;
+	border-radius: 2px;
+}
+.btnthree:hover{
+    background: #0b503e;
+}
+
+
